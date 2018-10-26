@@ -2323,3 +2323,9 @@ blockquote p {
 
     #top-menu {border-bottom: none;}
 }
+
+@media screen and (max-width: 600px) {
+    .p-view {
+        display: none;
+    }
+}

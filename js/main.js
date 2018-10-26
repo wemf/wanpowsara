@@ -161,3 +161,6 @@ $(window).load(function() {
     });
 });
 
+if ($(window).width() >= 768) { 
+    $("a[rel^='prettyPhoto']").prettyPhoto(); 
+}
